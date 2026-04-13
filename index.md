@@ -3,6 +3,8 @@ layout: home
 title: Home
 ---
 
+![Silky Arora](/assets/profile.png)
+
 <div class="social-links" markdown="1">
 [github](https://github.com/silkyar) \| [linkedin](https://linkedin.com/in/silkyar) \| [scholar](https://scholar.google.com/citations?hl=en&user=OU0ViZMAAAAJ) \| [email](mailto:silkyarora.2188@gmail.com)
 </div>

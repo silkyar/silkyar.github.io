@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v=5">
   <title>{{ page.title }} - {{ site.title }}</title>
   
   {% seo %}
@@ -22,7 +22,7 @@
 </head>
 <body>
   <div class="header">
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    <h1><a href="{{ '/' | relative_url }}"><img src="{{ '/assets/profile.png' | relative_url }}" class="avatar" alt="{{ site.title }}">{{ site.title }}</a></h1>
     <div class="nav">
       <a href="{{ '/' | relative_url }}" class="active">home</a>
     </div>

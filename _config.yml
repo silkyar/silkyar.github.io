@@ -1,0 +1,16 @@
+title: Silky Arora 
+author: Silky Arora
+email: silkyarora.2188@gmail.com
+baseurl: ""
+url: "https://silkyar.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Permalink settings
+permalink: /blog/:title/

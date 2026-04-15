@@ -77,11 +77,19 @@ h1 a:hover {
   display: inline-block !important;
 }
 
-h2 { 
-  font-size: 1.1em; 
-  font-weight: 600; 
-  margin-top: 0; 
-  margin-bottom: 10px; 
+h2 {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+h3 {
+  font-size: 0.95em;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
   color: #555;
 }
 
@@ -277,4 +285,30 @@ ol li {
   text-decoration: underline !important;
   text-decoration-color: var(--underline-dark) !important;
   text-underline-offset: 2px;
+}
+
+/* Press & Talks section */
+.media {
+  margin: 40px 0;
+}
+
+.media h3 {
+  margin-bottom: 8px;
+}
+
+.media ul {
+  margin-top: 10px;
+}
+
+/* Hanging indent: wrapped lines align with the first character of text,
+   not with the bullet. */
+.media ul li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.media ul li:before {
+  position: absolute;
+  left: 0;
+  margin-right: 0;
 }

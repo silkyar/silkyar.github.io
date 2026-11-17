@@ -12,7 +12,8 @@
   <div class="header">
     <h1><a href="{{ '/' | relative_url }}"><img src="{{ '/assets/profile.png' | relative_url }}" class="avatar" alt="{{ site.title }}">{{ site.title }}</a></h1>
     <div class="nav">
-      <a href="{{ '/' | relative_url }}" class="active">home</a>
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>home</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog/' %} class="active"{% endif %}>blog</a>
     </div>
   </div>
   
